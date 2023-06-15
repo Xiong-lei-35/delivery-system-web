@@ -1,7 +1,8 @@
 <template>
   <div className="login" id="login-app">
     <div className="login-box">
-      <img src="@/images/login/login-l.png" alt="" className="xiashi">
+      <img src="@/images/login/login-l.png" alt="" className="xiashi"
+           style="border-right: 2px solid  rgb(235, 239, 240);border-radius: 12px;">
 
       <!--        <div class="block text-center zoumadeng">-->
       <!--          <el-carousel height="474.38px" style="border-radius: 12px">-->
