@@ -1,7 +1,7 @@
 <template>
-  <div class="login" id="login-app">
-    <div class="login-box">
-      <img src="@/images/login/login-l.png" alt="">
+  <div className="login" id="login-app">
+    <div className="login-box">
+      <img src="@/images/login/login-l.png" alt="" className="xiashi">
 
       <!--        <div class="block text-center zoumadeng">-->
       <!--          <el-carousel height="474.38px" style="border-radius: 12px">-->
@@ -15,15 +15,15 @@
       <!--          </el-carousel>-->
       <!--        </div>-->
 
-      <div class="login-form" style="position: relative;">
-        <div class="fanhuidenglu">
+      <div className="login-form" style="position: relative;">
+        <div className="fanhuidenglu">
           <img src="../images/tips2.png" alt="" style="width:200px; position: absolute; top: 15px; right: 55px;">
           <img src="../images/erweima.png" alt=""
                style="width: 50px; height: 50px;  position: absolute; top: 2px; right: 2px;"
                @click="fanhui"
           >
         </div>
-        <img src="../images/image-removebg-preview.png" alt="" >
+        <img src="../images/image-removebg-preview.png" alt="">
       </div>
     </div>
 
@@ -47,7 +47,7 @@ export default {
   //   }
   // },
   methods: {
-    fanhui(){
+    fanhui() {
       this.$router.push('/')
     },
   }
